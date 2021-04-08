@@ -1,0 +1,3 @@
+* purpose
+- Make sure to keep up with current trend
+- Practice python skill
