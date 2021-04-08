@@ -1,3 +1,8 @@
 * purpose
 - Make sure to keep up with current trend
 - Practice python skill
+
+* problems
+| # | Problem | Source                            | Difficulty |
+|---+---------+-----------------------------------+------------|
+| 1 | [[https://leetcode.com/problems/two-sum/][Two Sum]] | [[./leetcode-python/0001_two-sum.py]] | Easy       |
