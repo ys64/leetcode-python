@@ -33,8 +33,35 @@ class Solution:
         return temp
 
 
+class Solution2:
+    # 04/12/2021
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        # carry over
+        carry = 0
+        placeholder = ans = ListNode()
+
+        while l1 is not None or l2 is not None or carry != 0:
+            val = (
+                (l1.val if l1 is not None else 0)
+                + (l2.val if l2 is not None else 0)
+                + carry
+            )
+            temp = ListNode(int(val % 10))
+            ans.next = temp
+            ans = temp
+            carry = int(val / 10)
+
+            l1 = None if l1 is None else l1.next
+            l2 = None if l2 is None else l2.next
+
+        return ListNode() if placeholder.next == None else placeholder.next
+
+
 l1 = ListNode(2, ListNode(4, ListNode(3)))
 l2 = ListNode(5, ListNode(6, ListNode(4)))
 
 s = Solution()
 print(s.addTwoNumbers(l1, l2))
+
+s2 = Solution2()
+print(s2.addTwoNumbers(l1, l2))
