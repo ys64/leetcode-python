@@ -35,8 +35,42 @@ class Solution:
         return ans
 
 
+class Solution2:
+    # 04/12/2021
+    min = -(2 ** 31)
+    max = 2 ** 31 - 1
+
+    def reverse(self, x: int) -> int:
+        negative = x < 0
+        if negative:
+            x = -x
+
+        ans = 0
+
+        while x != 0:
+            remainder = x % 10
+            ans = ans * 10 + remainder
+            x //= 10
+
+        ans = -ans if negative else ans
+
+        if ans <= self.min:
+            return 0
+        if self.max <= ans:
+            return 0
+
+        return ans
+
+
 s = Solution()
 print(s.reverse(123))
 print(s.reverse(-123))
 print(s.reverse(120))
 print(s.reverse(0))
+
+
+s2 = Solution2()
+print(s2.reverse(123))
+print(s2.reverse(-123))
+print(s2.reverse(120))
+print(s2.reverse(0))
