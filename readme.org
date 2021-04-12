@@ -3,6 +3,7 @@
 - Practice python skill
 
 * problems
-| # | Problem | Source                            | Difficulty |
-|---+---------+-----------------------------------+------------|
-| 1 | [[https://leetcode.com/problems/two-sum/][Two Sum]] | [[./leetcode-python/0001_two-sum.py]] | Easy       |
+| # | Problem         | Source                                    | Difficulty |
+|---+-----------------+-------------------------------------------+------------|
+| 1 | [[https://leetcode.com/problems/two-sum/][Two Sum]]         | [[./leetcode-python/0001_two-sum.py]]         | Easy       |
+| 2 | [[https://leetcode.com/problems/add-two-numbers/][Add Two Number]]  | [[./leetcode-python/0002_add-two-numbers.py]] | Medium     |
