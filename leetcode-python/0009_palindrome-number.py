@@ -37,8 +37,34 @@ class Solution:
         return False
 
 
+class Solution2:
+    # 01/23/2021
+    def isPalindrome(self, x: int) -> bool:
+        # convert int to string
+        str_x = str(x)
+        is_palindrome = True
+        for i, c in enumerate(str_x):
+
+            if len(str_x) / 2 < i:
+                break
+
+            if c == str_x[len(str_x) - i - 1]:
+                pass
+            else:
+                is_palindrome = False
+                break
+
+        return is_palindrome
+
+
 s = Solution()
 print(s.isPalindrome(121))
 print(s.isPalindrome(-121))
 print(s.isPalindrome(10))
 print(s.isPalindrome(-101))
+
+s2 = Solution2()
+print(s2.isPalindrome(121))
+print(s2.isPalindrome(-121))
+print(s2.isPalindrome(10))
+print(s2.isPalindrome(-101))
