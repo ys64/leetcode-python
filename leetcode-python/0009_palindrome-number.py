@@ -57,6 +57,23 @@ class Solution2:
         return is_palindrome
 
 
+class Solution3:
+    # 04/12/2021
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0:
+            return False
+
+        str_x = str(x)
+
+        while len(str_x) != 0 and len(str_x) != 1:
+            if str_x[0] != str_x[len(str_x) - 1 :]:
+                return False
+
+            str_x = str_x[1 : len(str_x) - 1]
+
+        return True
+
+
 s = Solution()
 print(s.isPalindrome(121))
 print(s.isPalindrome(-121))
@@ -68,3 +85,9 @@ print(s2.isPalindrome(121))
 print(s2.isPalindrome(-121))
 print(s2.isPalindrome(10))
 print(s2.isPalindrome(-101))
+
+s3 = Solution3()
+print(s3.isPalindrome(121))
+print(s3.isPalindrome(-121))
+print(s3.isPalindrome(10))
+print(s3.isPalindrome(-101))
