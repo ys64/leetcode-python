@@ -10,6 +10,23 @@ class ListNode:
         else:
             return str(self.val) + " -> " + self.next.__str__()
 
+    def __eq__(self, other):
+        while self.next is not None or other.next is not None:
+            if self.val != other.val:
+                return False
+
+            if self.next is None:
+                return False
+            else:
+                self = self.next
+
+            if other.next is None:
+                return False
+            else:
+                other = other.next
+
+        return True
+
 
 class Solution:
     # 09/01/2020
