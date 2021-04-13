@@ -3,10 +3,11 @@
 - Practice python skill
 
 * problems
-|  # | Problem               | Source                                          | Difficulty |
-|----+-----------------------+-------------------------------------------------+------------|
-|  1 | [[https://leetcode.com/problems/two-sum/][Two Sum]]               | [[./leetcode-python/0001_two-sum.py]]               | Easy       |
-|  2 | [[https://leetcode.com/problems/add-two-numbers/][Add Two Number]]        | [[./leetcode-python/0002_add-two-numbers.py]]       | Medium     |
-|  7 | [[https://leetcode.com/problems/reverse-integer/][Reverse Integer]]       | [[./leetcode-python/0007_reverse-integer.py]]       | Easy       |
-|  9 | [[https://leetcode.com/problems/palindrome-number/][Palindrome Number]]     | [[./leetcode-python/0009_palindrome-number.py]]     | Easy       |
-| 14 | [[https://leetcode.com/problems/longest-common-prefix/][Longest Common Prefix]] | [[./leetcode-python/0014_longest-common-prefix.py]] | Easy       |
+|  # | Problem                          | Source                                                     | Difficulty |
+|----+----------------------------------+------------------------------------------------------------+------------|
+|  1 | [[https://leetcode.com/problems/two-sum/][Two Sum]]                          | [[./leetcode-python/0001_two-sum.py]]                          | Easy       |
+|  2 | [[https://leetcode.com/problems/add-two-numbers/][Add Two Number]]                   | [[./leetcode-python/0002_add-two-numbers.py]]                  | Medium     |
+|  7 | [[https://leetcode.com/problems/reverse-integer/][Reverse Integer]]                  | [[./leetcode-python/0007_reverse-integer.py]]                  | Easy       |
+|  9 | [[https://leetcode.com/problems/palindrome-number/][Palindrome Number]]                | [[./leetcode-python/0009_palindrome-number.py]]                | Easy       |
+| 14 | [[https://leetcode.com/problems/longest-common-prefix/][Longest Common Prefix]]            | [[./leetcode-python/0014_longest-common-prefix.py]]            | Easy       |
+| 19 | [[https://leetcode.com/problems/remove-nth-node-from-end-of-list/][Remove Nth Node From End of List]] | [[./leetcode-python/0019_remove-nth-node-from-end-of-list.py]] | Medium     |
