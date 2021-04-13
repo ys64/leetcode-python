@@ -127,3 +127,23 @@ print(s.removeNthFromEnd(head, n))
 head = ListNode(1)
 n = 1
 print(s.removeNthFromEnd(head, n))
+
+
+import pytest
+
+
+@pytest.mark.parametrize(
+    ("head", "n", "expected"),
+    [
+        (
+            ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5))))),
+            2,
+            ListNode(1, ListNode(2, ListNode(3, ListNode(5)))),
+        ),
+        (ListNode(1, ListNode(2, ListNode(3))), 1, ListNode(1, ListNode(2))),
+        (ListNode(1), 1, None),
+    ],
+)
+def test_solution(head, n, expected):
+    s = Solution()
+    assert s.removeNthFromEnd(head, n) == expected
