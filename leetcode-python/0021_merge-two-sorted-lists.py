@@ -84,6 +84,25 @@ class Solution2:
         return placeholder.next
 
 
+class ModelSolution:
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+        prev = dummy = ListNode(None)  # new dummy head for the merged list
+
+        while l1 and l2:  # link prev to the lowest node
+            if l1.val < l2.val:
+                prev.next = l1
+                l1 = l1.next
+            else:
+                prev.next = l2
+                l2 = l2.next
+
+            prev = prev.next
+
+        prev.next = l1 or l2  # link prev to the list with remaining nodes
+
+        return dummy.next
+
+
 s = Solution()
 print(
     s.mergeTwoLists(
