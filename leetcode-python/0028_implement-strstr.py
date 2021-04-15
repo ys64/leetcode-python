@@ -21,6 +21,30 @@ class Solution:
         return -1
 
 
+class Solution2:
+    # 04/14/2021
+    def strStr(self, haystack: str, needle: str) -> int:
+        if needle == "":
+            return 0
+
+        for i, l in enumerate(haystack):
+            if len(haystack) - i < len(needle):
+                break
+
+            if l == needle[0]:
+                n_index = 1
+                while n_index < len(needle):
+                    if haystack[i + n_index] != needle[n_index]:
+                        n_index = -1
+                        break
+                    n_index += 1
+
+                if n_index == len(needle):
+                    return i
+
+        return -1
+
+
 s = Solution()
 print(s.strStr("hello", "ll"))
 print(s.strStr("hello", "llo"))
