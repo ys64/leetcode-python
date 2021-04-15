@@ -15,3 +15,4 @@
 | 26 | [[https://leetcode.com/problems/remove-duplicates-from-sorted-array/][Remove Duplicates from Sorted Array]] | [[./leetcode-python/0026_remove-duplicates-from-sorted-array.py]] | Easy       |
 | 27 | [[https://leetcode.com/problems/remove-element/][Remove Element]]                      | [[./leetcode-python/0027_remove-element.py]]                      | Easy       |
 | 28 | [[https://leetcode.com/problems/implement-strstr/][Implement strStr()]]                  | [[./leetcode-python/0028_implement-strstr.py]]                    | Easy       |
+| 35 | [[https://leetcode.com/problems/search-insert-position/][Search Insert Position]]              | [[./leetcode-python/0035_search-insert-position.py]]              | Easy       |
