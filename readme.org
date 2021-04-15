@@ -14,3 +14,4 @@
 | 21 | [[https://leetcode.com/problems/merge-two-sorted-lists/][Merge Two Sorted Lists]]              | [[./leetcode-python/0021_merge-two-sorted-lists.py]]              | Easy       |
 | 26 | [[https://leetcode.com/problems/remove-duplicates-from-sorted-array/][Remove Duplicates from Sorted Array]] | [[./leetcode-python/0026_remove-duplicates-from-sorted-array.py]] | Easy       |
 | 27 | [[https://leetcode.com/problems/remove-element/][Remove Element]]                      | [[./leetcode-python/0027_remove-element.py]]                      | Easy       |
+| 28 | [[https://leetcode.com/problems/implement-strstr/][Implement strStr()]]                  | [[./leetcode-python/0028_implement-strstr.py]]                    | Easy       |
