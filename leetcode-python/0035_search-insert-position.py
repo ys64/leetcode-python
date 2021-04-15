@@ -18,6 +18,16 @@ class Solution:
         return len(nums)
 
 
+class Solution2:
+    # 04/14/2021
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        for i, n in enumerate(nums):
+            if target <= n:
+                return i
+
+        return len(nums)
+
+
 s = Solution()
 print(s.searchInsert([1, 3, 5, 6], 5))
 print(s.searchInsert([1, 3, 5, 6], 2))
