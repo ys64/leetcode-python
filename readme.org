@@ -16,3 +16,4 @@
 | 27 | [[https://leetcode.com/problems/remove-element/][Remove Element]]                      | [[./leetcode-python/0027_remove-element.py]]                      | Easy       |
 | 28 | [[https://leetcode.com/problems/implement-strstr/][Implement strStr()]]                  | [[./leetcode-python/0028_implement-strstr.py]]                    | Easy       |
 | 35 | [[https://leetcode.com/problems/search-insert-position/][Search Insert Position]]              | [[./leetcode-python/0035_search-insert-position.py]]              | Easy       |
+| 38 | [[https://leetcode.com/problems/count-and-say/][Count and Say]]                       | [[./leetcode-python/0038_count-and-say.py]]                       | Medium     |
