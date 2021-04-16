@@ -29,6 +29,30 @@ class Solution(object):
         return returnValue
 
 
+class Solution2:
+    # 04/15/2021
+    def countAndSay(self, n: int) -> str:
+        if n == 1:
+            return "1"
+
+        previous = self.countAndSay(n - 1)
+
+        current = previous[0]
+        count = 1
+        ans = ""
+        for c in previous[1:]:
+            if c == current:
+                count += 1
+            else:
+                ans += str(count) + current
+                current = c
+                count = 1
+
+        ans += str(count) + current
+
+        return ans
+
+
 s = Solution()
 print(s.countAndSay(4))
 print(s.countAndSay(10))
