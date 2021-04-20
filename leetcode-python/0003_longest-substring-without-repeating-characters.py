@@ -22,6 +22,36 @@ class Solution(object):
         return max_length
 
 
+class Solution2:
+    # 04/20/2021
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        if s == "":
+            return 0
+
+        end = 0
+
+        longest = s[0]
+        current = s[0]
+        rest = s[1:]
+
+        while len(rest) != 0:
+            c = rest[end : end + 1]
+            if c in current:
+                if len(longest) < len(current):
+                    longest = current
+
+                end = 0
+                current = rest[0]
+                rest = rest[1:]
+            else:
+                current += c
+                if len(longest) < len(current):
+                    longest = current
+                end += 1
+
+        return len(longest)
+
+
 s = Solution()
 print(s.lengthOfLongestSubstring("abcabcbb"))
 print(s.lengthOfLongestSubstring("bbbbb"))
