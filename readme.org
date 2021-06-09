@@ -18,3 +18,4 @@
 | 28 | [[https://leetcode.com/problems/implement-strstr/][Implement strStr()]]                             | [[./leetcode-python/0028_implement-strstr.py]]                               | Easy       |
 | 35 | [[https://leetcode.com/problems/search-insert-position/][Search Insert Position]]                         | [[./leetcode-python/0035_search-insert-position.py]]                         | Easy       |
 | 38 | [[https://leetcode.com/problems/count-and-say/][Count and Say]]                                  | [[./leetcode-python/0038_count-and-say.py]]                                  | Medium     |
+| 43 | [[https://leetcode.com/problems/multiply-strings/][Multiply Strings]]                               | [[./leetcode-python/0043_multiply-strings.py]]                               | Medium     |
