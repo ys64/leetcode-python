@@ -19,3 +19,4 @@
 | 35 | [[https://leetcode.com/problems/search-insert-position/][Search Insert Position]]                         | [[./leetcode-python/0035_search-insert-position.py]]                         | Easy       |
 | 38 | [[https://leetcode.com/problems/count-and-say/][Count and Say]]                                  | [[./leetcode-python/0038_count-and-say.py]]                                  | Medium     |
 | 43 | [[https://leetcode.com/problems/multiply-strings/][Multiply Strings]]                               | [[./leetcode-python/0043_multiply-strings.py]]                               | Medium     |
+| 46 | [[https://leetcode.com/problems/permutations/][Permutations]]                                   | [[./leetcode-python/0046_permutations.py]]                                   | Medium     |
